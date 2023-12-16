@@ -1,0 +1,47 @@
+.productList ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;  
+    list-style: none;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    gap: 1rem;
+  
+  }
+  
+  .productCard {
+    border: 1px solid #fff; /* Add borders or other styling as needed */
+    padding: 10px;
+    text-align: start;
+    width: 330px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .productImage {
+    max-width: 300px;
+    height: auto; 
+  }
+  
+  .productName {
+    margin: 10px 0;
+  }
+  
+  .productPrice {
+    font-weight: bold;
+  }
+  
+  .buyNow {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+ 

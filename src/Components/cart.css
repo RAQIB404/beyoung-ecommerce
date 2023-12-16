@@ -1,0 +1,280 @@
+.cartContainer{
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto;
+  list-style: none;
+  background: #f4f4f6;
+
+}
+
+.cartdis{
+    display: flex;
+    background: #fff !important;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.17);
+    gap: 1rem;
+    margin-bottom: 20px;
+  
+}
+
+
+.three{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.three img{
+    border-radius: 5px;
+}
+
+.three1{
+    margin-top: 10px;
+    color: rgb(142, 140, 140);
+}
+.three1 button{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    align-items: center;
+    background: #fff;
+    border: 0.5px solid rgb(175, 174, 174);
+}
+
+.three span{
+    padding: 0 5px;
+}
+.pri{
+    margin-top: 10px;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 137.5%;
+}
+
+.save{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.save span{
+    color: rgb(75, 181, 80);
+    font-size: 12px;
+}
+.co{
+    margin-top: 20px;
+    font-size: 12px;
+}
+.cartcard{
+    margin-top: 10px;
+}
+
+.remo{
+    border:  1px solid rgb(223 220 220);
+    background: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: rgb(102, 101, 101);
+    cursor: pointer;
+    width: 115px;
+    height: 27px;
+    border-radius: 5px;
+}
+
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+    box-shadow: 1px  1px 3px rgba(0, 0, 0, .22);
+    background: #f4f4f6;
+}
+
+.secure{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 100%;
+    width: 35%;
+    background: #edebeb;
+    justify-content: center;
+}
+
+.secure img{
+    border-radius: 40px;
+}
+.line img{
+    width: 100%;
+    display: flex;
+    margin-top: 45px;
+    background: #f2f2f2;
+    
+}
+
+.line{
+    box-shadow: 1px  1px 3px rgba(0, 0, 0, .22);
+
+}
+
+li{
+    list-style: none;
+}
+
+.cardbody{
+    width: 58%;
+    background: #fff;
+    padding: 30px 20px 20px 20px;
+    margin-top: 50px;
+    height: 100vh;
+}
+
+.offer {
+    border-radius: 5px;
+    background: #fff;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.off{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.off h3{
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bothbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ship{
+    display: flex;
+    justify-content: space-between;
+}
+
+.to{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.pricedetails{
+    border-radius: 5px;
+    background: #fff;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.apply button{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background: #51cbcc;
+    padding: 9px 15px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+.offer input{
+    width: 70%;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background:rgb(239, 239, 239) ;
+}
+
+.offer hr{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.offer small{
+    color: #535353;
+    font-size: 14px;
+}
+
+.offer p{
+    color: #535353;
+    font-size: 14px
+}
+
+.hun{
+    background: radial-gradient(25728.78% 75.45% at 48.24% 53.33%, #fffbd1 0%, #fff 98.96%);
+    width: 35%;
+    display: inline-block;
+    text-align: right;
+    padding: 10px 10px;
+}
+
+.pricedetails hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.to p{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+}
+
+.ship p{
+    margin-top: 10px;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+}
+
+.ship span{
+    color:rgb(75, 181, 80) ;
+}
+.ship strike{
+    color: #000;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.tot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tot h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #222;
+    letter-spacing: 0.8px;
+}
+.totalAmount{
+    border-radius: 5px;
+    background: #fff;
+    padding: 25px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.totalAmount button{
+    background: #51cbcc;
+    padding: 15px 0;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+

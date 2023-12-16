@@ -1,0 +1,133 @@
+.container1 img:first-child{
+    width: 36%;
+    height: 70vh;
+}
+
+.tag{
+    width: 55px;
+    height: 55px;
+    transform: rotate(-70deg);
+}
+.pri{
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.discounted-text{
+    color: #888888;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.category{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0,0,0,0.4);
+    display: block;
+    padding: 0px 0px 10px 0px;
+}
+.span{
+    position: relative;
+    top: -18px;
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    
+}
+
+.container1{
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-evenly;
+    line-height: 40px;
+    margin-top: 50px;
+    background: #fffafa;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.add{
+    color: #fff;
+    padding: 15px 25px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+    background: #51cccc;
+    font-size: 14px;
+    border: none;
+}
+
+.container1 img:last-child{
+    width: 19px;
+    height: 17px;
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+}
+
+.quantitybox {
+    border-radius: 2px;
+    position: relative;
+    background: #f7f3f3;
+    padding: 10px;
+    width: 50px;
+    height: 40px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.size-box{
+    display: flex;
+    gap:0.5rem;
+    margin-bottom: 20px;
+}
+.size{
+    height: 47px;
+    width: 47px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 45px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: 1px solid #ddd; 
+    border-radius: 50px;
+}
+
+.size:hover{
+    border: 1px solid #51cccc;
+}
+.colo{
+    color: rgb(97, 95, 95);
+}
+
+.quan{
+    display: flex;
+}
+strong{
+    font-weight: 500;
+    color: #000;
+    font-size: 16px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+
+
+.heart1{
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    background: #f5f5f5;
+    
+}
+
+.heart1 img{
+    margin-top: 8px;
+    margin-left: 8px;
+}

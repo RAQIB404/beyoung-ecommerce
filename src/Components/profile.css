@@ -1,0 +1,105 @@
+.prof{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 5rem;
+}
+
+.formvalidation{
+    line-height: 20px;
+    width: 50%;
+}
+.names{
+    display: flex;
+    gap: 2rem;
+}
+
+.star{
+    color: red;
+}
+
+
+.names input{
+    border-bottom: 1px solid #e6e6e6;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 8px 0px;
+    margin-bottom: 10px;
+
+}
+
+.names label{
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 0.5;
+    color: #181818;
+    transition: all 0.1s ease;
+    margin-bottom: 5px;
+}
+
+.names input:focus{
+    outline: none;
+    
+}
+.names1 input{
+    border-bottom: 1px solid #e6e6e6;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 8px 0px;
+    margin-bottom: 10px;
+}
+
+.names1 input:focus{
+    outline: none;
+    
+}
+
+.names1 label{
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 0.5;
+    color: #181818;
+    transition: all 0.1s ease;
+    margin-bottom: 5px;
+}
+
+.gen{
+    display: flex;
+    align-items: center;
+}
+
+.gen label {
+    margin-right: 15px;
+}
+
+.gen button{
+    border: none;
+    display: inline-block;
+    color: #000;
+    font-size: 14px;
+    padding: 10px 22px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.save1{
+    background: #feeb00;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.sidebar ul li:last-child{
+    border: none;
+}
