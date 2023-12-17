@@ -142,11 +142,6 @@ function Navbar() {
         setShowOverlay(false);
     }
 
-    //    const filterProduct = (cat) => {
-    //         const updatedList = data.filter((x) =>x.category === cat);
-    //         setFilter(updatedList);
-    //    }
-
     return (
         <div className="container">
             {isCartPage ? null : (
@@ -172,11 +167,13 @@ function Navbar() {
                     </div>
 
                     <div className="bey">
+                        <div className="mebe">
                         <div className="menu-icon" onClick={handleMenuToggle}>
                             <img src={menu} alt="Menu" />
                         </div>
                         <NavLink to="/" style={{ textDecoration: 'none' }}>
                             <h2>BEYOUNG<span className="r">R</span></h2></NavLink>
+                            </div>
                         <div className={`menu ${isMenuOpen ? 'open' : ''}`}>
                             <ul>
                                 <li className="lipro">
@@ -199,7 +196,7 @@ function Navbar() {
                             <div>
                                 <img onClick={handleSearchButtonClick} src={search} alt="" />
                             </div>
-                            <div>
+                            <div className="twoimg"> 
                                 <NavLink to="/wishlist">
                                     <img src={heart} alt="" />
                                 </NavLink>

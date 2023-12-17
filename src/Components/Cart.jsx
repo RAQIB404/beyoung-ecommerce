@@ -5,6 +5,8 @@ import { NavLink } from "react-router-dom";
 import locker from '../Components/Assets/locker.png';
 import line from '../Components/Assets/line.png';
 import coupon from '../Components/Assets/coupon.svg';
+import linem from '../Components/Assets/linem.png';
+
 // import meine from '../Components/Assets/meine.png';
 
 
@@ -27,20 +29,16 @@ const Cart = () => {
       <div className="head">
         <h1><NavLink to="/" style={{ textDecoration: 'none', color: '#000', marginLeft: '30px' }} >BEYOUNG<span className="r">R</span></NavLink></h1>
         <div className="secure">
-          <img src={locker} alt="" width="36px" height="36px" />
+          <img src={locker} alt=""  />
           <h2>100% SECURE PAYMENT</h2>
         </div>
       </div>
       <div className="line">
-        <img src={line} alt="" />
+        <img className='line1' src={line} alt="" />
+        <img src={linem} alt="" />
       </div>
       <div className="bothbox">
         <div className="cardbody">
-          {/* {cartItems.lenght === 0 ? (
-            <div className="meine">
-            <img src={meine} alt=""  width="100px" />
-            </div>
-          ) : ( */}
             <ul>
               {cartItems.map((item) => {
                 console.log(item);

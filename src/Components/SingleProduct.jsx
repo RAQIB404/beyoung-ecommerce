@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import cart1 from '../Components/Assets/cart1.svg';
 import tag from '../Components/Assets/tag.png';
 import heart from '../Components/Assets/heart.png'
-import { useCart, useWishlist  } from '../context/CartContext';
+import { useCart, useWishlist } from '../context/CartContext';
 
 import "./singleproduct.css";
 import { NavLink } from 'react-router-dom';
@@ -44,7 +44,7 @@ const SingleProduct = ({ match }) => {
     fetchProduct();
   }, [productId]);
 
-  
+
 
   const handleAddToCart = () => {
     addToCart({ ...product, quantity: selectedQuantity });
@@ -55,7 +55,15 @@ const SingleProduct = ({ match }) => {
 
   return (
     <div className='container1'>
-      <img src={product.displayImage} alt={product.name} />
+    
+      <img className='single' src={product.displayImage} alt={product.name} /> 
+      <NavLink to="/wishlist">
+        <div className="heart2" onClick={handleAddToWishlist}>
+          <img src={heart} alt="" />
+        </div>
+
+      </NavLink>
+      
       <div className='card'>
         <h2>{product.name}</h2>
         <p className='category'>{product.subCategory}</p>
@@ -72,8 +80,8 @@ const SingleProduct = ({ match }) => {
         </div>
         <div className="quan">
           <strong>QTY:</strong>
-          <select className="quantitybox"  value={selectedQuantity}
-          onChange={(e) => setSelectedQuantity(parseInt(e.target.value, 10))}>
+          <select className="quantitybox" value={selectedQuantity}
+            onChange={(e) => setSelectedQuantity(parseInt(e.target.value, 10))}>
             <option value='1'>1</option>
             <option value='2'>2</option>
             <option value='3'>3</option>
@@ -88,15 +96,15 @@ const SingleProduct = ({ match }) => {
         </div>
 
         <button className='add' onClick={handleAddToCart}>
-        <img src={cart1} alt='' />
-        ADD TO CART
-      </button>
+          <img className='addcart' src={cart1} alt='' />
+          ADD TO CART
+        </button>
       </div>
       <NavLink to="/wishlist">
         <div className="heart1" onClick={handleAddToWishlist}>
-        <img src={heart} alt="" />
-      </div>
-      
+          <img src={heart} alt="" />
+        </div>
+
       </NavLink>
     </div>
   );

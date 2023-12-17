@@ -14,9 +14,10 @@
 
 }
 
-.makeAWish {
+.makeAWish img{
         text-align: center;
         margin-top: 140px;
+        width: 100%;
 }
 
 
@@ -64,6 +65,11 @@
     font-size: 14px;
 }
 
+.wish{
+    display: flex;
+    justify-content: center;
+}
+
 .category1{
     color: #00000066;
     margin-top: 7px;
@@ -71,6 +77,7 @@
 }
 
 .sidebar{
+    display: none;
     padding: 0px 10px;
     border: 1px solid  #dddbdb;
     width: 250px;
@@ -98,4 +105,10 @@
     display: inline-grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 16px;
+   }
+
+   @media only screen and (min-width: 1024px) {
+    .sidebar{
+        display: block;
+    }
    }

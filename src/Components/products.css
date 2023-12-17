@@ -1,35 +1,21 @@
-.productList ul {
+  .productList ul{
     display: grid;
-    grid-template-columns: auto auto auto auto;  
+    grid-template-rows: auto auto auto auto;  
     list-style: none;
     margin-top: 40px;
     justify-content: space-evenly;
     gap: 1rem;
   
   }
-  
+
   .productCard {
-    border: 1px solid #fff; /* Add borders or other styling as needed */
+    border: 1px solid #fff; 
     padding: 10px;
     text-align: start;
-    width: 330px;
+    width: 285px;
     border-radius: 5px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
   }
-  
-  .productImage {
-    max-width: 300px;
-    height: auto; 
-  }
-  
-  .productName {
-    margin: 10px 0;
-  }
-  
-  .productPrice {
-    font-weight: bold;
-  }
-  
   .buyNow {
     background-color: #4caf50;
     color: white;
@@ -42,6 +28,22 @@
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 4px;
+  } 
+  .productImage {
+    max-width: 300px;
+    height: 330px; 
+  }
+
+  .productName {
+    margin: 10px 0;
   }
   
- 
+  .productPrice {
+    font-weight: bold;
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .productList ul {
+      grid-template-columns: auto auto auto;  
+    }
+  }

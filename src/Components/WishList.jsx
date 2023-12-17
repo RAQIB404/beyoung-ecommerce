@@ -69,7 +69,7 @@ function Wishlist() {
         {wishlistItems.length === 0 ? (
           <div className="make">
             <div className="makeAWish">
-              <img src={wish} alt="" width="500px" />
+              <img src={wish} alt=""  />
             </div>
           </div>
         ) : (
