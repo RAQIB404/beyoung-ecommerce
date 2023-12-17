@@ -21,6 +21,7 @@
     background: #51cccc;
     font-size: 14px;
     border: none;
+    margin-bottom: 20px;
     
 }
 .container1 img:last-child{
@@ -30,8 +31,6 @@
     display: flex;
 
 }
-
-
 .pri{
     font-size: x-large;
     font-weight: 700;
