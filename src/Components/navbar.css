@@ -246,6 +246,41 @@ span.get {
     cursor: pointer;
 }
 
+.search-box {
+    border-top: 1px solid #f3f1f1;
+    position: absolute;
+    width: 370px;
+    background: #fff;  
+    top: 135px;
+    right: 0px;
+    height: auto;
+    padding: 14px;
+    z-index: 999;
+}
+
+.search-box input[type="text"] {
+    width: 250px;
+    padding: 9px 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.3s ease;
+    float: right;
+}
+
+
+.search-box button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 9px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    float: right;
+    position: relative;   
+    right: 0px;
+}
 
 
 @media only screen and (max-width: 320px) {
